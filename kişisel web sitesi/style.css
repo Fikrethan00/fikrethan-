@@ -1,0 +1,90 @@
+
+/* Genel sayfa ayarlari */
+body {
+    background-color: #100d16;
+    color: #eeeeee;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+}
+
+/* Sayfa basligi */
+header {
+    background-color: #1c1428;
+    color: #c79aff;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+/* Menu */
+nav {
+    background-color: #2b1b3d;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #c79aff;
+}
+
+/* Ana icerik */
+main {
+    width: 80%;
+    margin: 25px auto;
+}
+
+/* Makale bolumleri */
+section {
+    background-color: #1b1722;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 4px solid #9b5de5;
+    border-radius: 5px;
+}
+
+section h2 {
+    color: #c79aff;
+    border-bottom: 1px solid #49345f;
+    padding-bottom: 8px;
+}
+
+section h3 {
+    color: #b58ae8;
+}
+
+/* Alt kisim */
+footer {
+    background-color: #1c1428;
+    color: #c79aff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* Kucuk ekranlar icin */
+@media (max-width: 600px) {
+    main {
+        width: 90%;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    header {
+        padding: 20px;
+    }
+}
